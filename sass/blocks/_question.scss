@@ -1,0 +1,107 @@
+.questios {
+  .questios_title {
+    margin: 50px 0px 20px 0px;
+  }
+  .questios_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    .questios_asked {
+      width: 772px;
+      padding: 26px;
+      border: 1px solid #003366;
+      border-radius: 16px;
+      .question_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          color: #343434;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          font-family: "Roboto", sans-serif;
+        }
+        .question_top-button {
+          background-color: #fbfbfb;
+        }
+      }
+      .question_send-line {
+        max-width: 612px;
+        border-bottom: 1px solid #003366;
+        margin: 30px 0px;
+      }
+      .question_text {
+        color: #343434;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+    .questios_asked:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    .question_send {
+      width: 544px;
+      max-height: 611px;
+      padding: 60px;
+      background-color: #003366;
+      border-radius: 14px;
+      .question_send-line {
+        border-bottom: 1px solid #fbfbfb;
+        margin: 40px 0px;
+      }
+      .question_send-text {
+        p {
+          color: #fbfbfb;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 36px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+
+      .question_send-form {
+        display: flex;
+        flex-direction: column;
+        input {
+          height: 64px;
+          border: 1px solid #ececec;
+          border-radius: 4px;
+          padding: 12px 14px;
+          margin-bottom: 20px;
+          color: #343434;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          font-family: "Roboto", sans-serif;
+        }
+
+        .input_text {
+          height: 114px;
+          margin-bottom: 40px;
+        }
+        .question_send_button {
+          max-width: 235px;
+          padding: 14px 30px;
+          border-radius: 14px;
+          background-color: #fbfbfb;
+          align-items: center;
+          margin-left: 90px;
+
+          button {
+            color: #003366;
+            background-color: #fbfbfb;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            font-family: "Roboto", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

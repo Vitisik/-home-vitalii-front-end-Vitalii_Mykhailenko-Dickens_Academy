@@ -1,0 +1,59 @@
+.schedule {
+  background-color: #003366;
+
+  .schedule_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    .schedule_right {
+      max-width: 658px;
+      align-content: center;
+      margin-right: 24px;
+      .schedule_title {
+        color: #fbfbfb;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 63px;
+        text-transform: uppercase;
+      }
+      .schedule_text {
+        max-width: 598px;
+        color: #fbfbfb;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+    .schedule_left {
+      width: 100%;
+      .schedule_left-form {
+        display: flex;
+        flex-direction: column;
+        input {
+          padding: 12px 14px;
+          margin-bottom: 24px;
+          border: 1px solid #ececec;
+          border-radius: 4px;
+          background-color: #fbfbfb;
+          color: #343434;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          font-family: "Roboto", sans-serif;
+        }
+        .schedule_auth_button {
+          max-width: 214px;
+          padding: 14px 30px;
+          background-color: #fbfbfb;
+          border-radius: 14px;
+          color: #003366;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+}

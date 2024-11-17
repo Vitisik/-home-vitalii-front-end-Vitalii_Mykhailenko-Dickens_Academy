@@ -1,0 +1,35 @@
+.footer {
+  .footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+    .footer_logo {
+      width: 484px;
+    }
+    .footer_title {
+      color: #003366;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "Roboto", sans-serif;
+    }
+    .footer_contacts {
+      width: 484px;
+      display: flex;
+      justify-content: flex-end;
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      font-family: "Roboto", sans-serif;
+
+      a {
+        color: #343434;
+        text-decoration: none;
+        margin-left: 16px;
+        padding: 12px 14px;
+      }
+    }
+  }
+}
